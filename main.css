@@ -1,0 +1,66 @@
+.intro-section{
+    display: block;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 3em;
+}
+
+.intro-heading-wrapper{
+    display: block;
+    margin-top: 10%;
+}
+
+.intro-line{
+    font-size: 4rem;
+}
+
+.intro-tag-line{
+    font-size: 1.2rem;
+}
+
+.carousel-section{
+   margin-top: 8%; 
+    width: 50%;
+}
+
+.section-2 {
+  padding: 3.5rem;
+    background-color: #d9d9d9;
+}
+
+.btn-wrapper{
+    display: block;
+    margin-top: 10px;
+}
+
+.btnCoolStuff{
+    display: block;
+    margin: auto;
+}
+
+
+h5.kfs-modal-title{
+    margin: auto;
+    margin-right: 5px;
+}
+
+
+.kfs-modal-image{
+   padding: 1.2rem;
+    margin: auto;
+}
+
+
+
+
+
+/*Media queries*/
+@media only screen and (max-width: 768px) {
+    
+    .intro-section{
+        padding: 0px;
+    }
+  .carousel-section {
+    width: 100%;
+  }
+}
